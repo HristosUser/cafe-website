@@ -103,27 +103,90 @@
       Rīga <br>
       Šarlotes iela 14</p>
     </section>
+    <aside>
       <section class="reg-form">
         <h2>Sazinajies ar mums</h2>
-        <form action=""></form>
+        <form>
+          <fieldset>
+            <legend>
+              Lietotāja dati:
+            </legend>
+            <label>
+              Vārds:
+              <input type="text" name="name" size="30" maxlenght="100">
+            </label>
+              <label>
+              Email:
+              <input type="text" name="email" size="30" maxlength="100">
+            </label>
+            <br>
+            <fieldset>
+              <legend>
+                Jūsu viedoklis:
+              </legend>
+              <p>
+                <label for="hear-about">
+                  Kā Jūs uzzinājāt par mums?
+                </label>
+                <select name="referrer" id="hear-about">
+                  <option value="inst">Instagram</option>
+                  <option value="facebook">Facebook</option>
+                  <option value="reddit">Reddit</option>
+                  <option value="whatsapp">Whats'app</option>
+                  <option value="google">Google</option>
+                </select>
+              </p>
+              <p>
+                <br>
+                <label>
+                  Vēlaties uzzināt vairāk par mums:
+                  <input type="radio" name="rating" value="yes">
+                  Jā
+                </label>
+                <label>
+                  <input type="radio" name="rating" value="no">
+                  Nē
+                </label>
+                <label>
+                  <input type="radio" name="rating" value="maybe">
+                  Varbūt
+                </label>
+              </p>
+              <p>
+                <label for="comments">
+                  Komentāri:
+                </label>
+                <br>
+                <textarea name="com" id="comments" cols="80" rows="10"></textarea>
+              </p>
+              <label>
+                <input type="checkbox" name="subcribe" checked="checked">
+                Es vēlos saņemt vietnes atjauninājumus
+              </label>
+              <br>
+              <input type="submit" value="Submit rewiew">
+            </fieldset>
+          </fieldset>
+        </form>
       </section>
+    </aside>
   </aside>
   <aside>
     <section class="jaunas-piedevas">
       <h2>Jaunas piedevas</h2>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
+      <a href="">Gaļas bumbiņas tomātu mērcē</a>
+      <a href="">Lasis tomātu un spinātu mērcē ar saldo krējumu</a>
+      <a href="">Pikantā Jāņu pica</a>
+      <a href="">Kartupeļu un speķīša vafeles</a>
     </section>
   </aside>
   <aside>
     <section class="news">
       <h2>Jaunumi</h2>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
+      <a href="">Pieci vēsturiski ēdieni, kas saglabājušies līdz mūsdienām</a>
+      <a href="">'Ādažu čipsu' sortimentā atgriezīsies bekona čipsi, 'Ego' čipsi un kartupeļu ripuļi</a>
+      <a href="">No 7. aprīļa izgaršot pavasari varēs Valmieras Restorānu nedēļā</a>
+      <a href="">'Sojšliks' un zefīri bez olām noskaidroti gardākie jaunie vegāniskie produkti</a>
     </section>
   </aside>
   <footer>
