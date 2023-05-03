@@ -133,3 +133,69 @@ footer {
   font-size: 80%;
   padding: 7px 0px 0px 20px;
 }
+
+.ingr-yakitori {
+  padding-top: 20px;
+}
+
+span {
+  color: #de6581;
+}
+
+.h1-yak {
+  display: flex;
+  justify-content: right;
+  padding: 50px;
+  margin: -300px 100px 100px 0px;
+  color: #de6581;
+}
+
+.recipe-ing {
+  display: block;
+  font-size: 16px;
+  line-height: 0.6;
+  color: #1d211f;
+  text-align: left;
+  padding: 3px 0 5px;
+}
+
+.recept-yakitori {
+  box-sizing: border-box;
+}
+
+.h1-yak {
+  line-height: 1.4;
+  text-align: left;
+  font-weight: 700;
+}
+
+.recept-step {
+  margin: 150px;
+}
+
+.recept-title-step {
+  margin: 50px;
+  font-family: "PT Sans Narrow";
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #1d211f;
+  text-align: left;
+  margin: 15px 0;
+}
+
+.recept-image-step {
+  float: left;
+  margin: 0 20px 0 0;
+  max-width: 100%;
+  height: 200px;
+  width: 200px;
+  padding-left: 50px;
+  margin: 20px;
+}
+
+.recept-txt {
+  margin-left: 50px;
+  padding: 20px;
+  border: 5px black solid;
+}
